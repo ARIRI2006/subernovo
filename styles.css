@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* -webkit-box-sizing: border-box;
-          box-sizing: border-box; */
 }
 
 html, body {
@@ -112,7 +110,7 @@ header {
   border-radius: 20px;
 }
 
-.menu__item button {
+.item_menu button {
   background-color: transparent;
   border: none;
   color: #FFF;
@@ -120,9 +118,24 @@ header {
   font-size: .85em;
 }
 
-.menu__item button:hover {
+.item_menu button:hover {
   background-color: #474747;
   border-radius: 20px;
+}
+
+.login button{
+  background-color: #ffffff;
+  border: #474747;
+  border-radius: 20px;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+
+.login button:hover{
+  background-color: #545454;
+  border: #000000;
 }
 
 .menu__mobile {
