@@ -12,8 +12,20 @@ button {
   font-family: 'Poppins', sans-serif;
 }
 
-ul {
-  list-style: none;
+.menu li {
+  margin-right: 10px;
+}
+
+.menu li input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.menu li input[type="text"]:hover,
+.menu li input[type="text"]:focus {
+  border-color: #808080;
 }
 
 .flex {
@@ -64,6 +76,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          list-style: none;
 }
 
 .menu__expanded {
@@ -103,11 +116,13 @@ header {
   padding: 5px 10px;
   font-size: .85em;
   text-decoration: none;
+  
 }
 
 .menu__item a:hover {
   background-color: #474747;
   border-radius: 20px;
+
 }
 
 .item_menu button {
