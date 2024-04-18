@@ -37,6 +37,9 @@
 .title {
   font-size: 2em;
   color: #333333;
+  padding-left: 100px;
+  padding-top: 100px;
+  
 }
 
 .anchor {
@@ -255,7 +258,34 @@ header {
   border-color: #9c9c9c;
 }
 
+.serviços {
+  padding-left: 00;
+  align-items: center;
+  width: 5%; /* Define a largura para cada coluna */
+  margin-right: 10px; /* Adiciona um espaçamento entre as colunas */
+  
+}
 
+.subervip,
+.t-suber {
+  width: 45%; /* Define a largura para cada div */
+  display: inline-block;
+  align-items: center;
+}
+
+.subervip img,
+.t-suber img {
+  max-width: 50%;
+  height: auto;
+  margin-left: 150px;
+}
+
+.subervip p,
+.t-suber p {
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
 
 
 .feat {
