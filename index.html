@@ -7,30 +7,26 @@
     <link rel="icon" href="img/logo_suber.png" sizes="32x32" type="image/png">
     <title>SUBER</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
 </head>
 <body>
     <header>
-        <nav class="nav flex">
-            <img src="img/logomarca_suber.png" alt="Logo">
-            <ul class="menu flex">
-                <li class="item_menu">
-                    <button><a>Conheça-nos</a></button>
-                </li>
-                <li class="item_menu">
-                    <button><a>Serviços</a></button>
-                </li>
+        <nav class="navbar">
+            <ul class="menu1">
+                <div class="wrapper">
+                    <img src="img/logomarca_suber.png" alt="Logo">
+                    <li><a>Conheça-nos</a></li>
+                    <li><a>Serviços</a></li>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" id="query-button" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
             </ul>
-            <ul class="menu flex align-items-center">
-                <li>
-                    <input type="text" placeholder="E-mail">
-                </li>
-                <li>
-                    <input type="text" placeholder="Senha">
-                </li>
-                <li class="login">
-                    <button>Login</button>
-                </li>
+            <ul class="menu2">
+                <input id="input1" type="text" placeholder="Nome">
+                <input id="input2" type="text" placeholder="Email">
+                <button>Avançar</button>
             </ul>
+
         </nav>
     </header>
     
@@ -39,74 +35,79 @@
             <h2>Dirija com segurança</h2>
             <h2><span class="destaque-amarelo">e conforto</span></h2>
             <button class="btn-login">Faça login</button>
+            <div class="login-archors">
+                <a href="#" class="anchor">Leia mais sobre nossas políticas</a>
+            </div>
             <img src="img/carros.png" alt="Carros" class="banner__background">
         </section>
 
         <section class="info-container">
-            <div class="content">
             <h2>SUBER: DIRIJA CONOSCO</h2>
             <p>Conectando motoristas jovens a carros acessíveis e luxuosos em <strong>APENAS UM CLIQUE!</strong></p>
             <button class="btn-start">CADASTRE-SE</button>
-        </div>
         </section>
         
         </div>
-            <h2 class="title">SERVIÇOS SUBER</h2>
-            <section class="Serviços">
-                <div class="subervip">
-                  <img src="img/subervip.png" alt="Imagem 1">
-                  <p> O Suber Vip é escolha definitiva para quem busca o máximo em luxo e conforto na estrada. Com um design elegante e tecnologia de ponta, este carro de luxo oferece uma experiência de condução incomparável.</p>
-                </div>
-                <div class="t-suber">
-                  <img src="img/t-suber.png" alt="Imagem 2">
-                  <p>O T-Suber é a escolha perfeita para motoristas que buscam qualidade e economia. Com um design moderno e eficiente, este carro popular é ideal para quem quer começar a dirigir com estilo e praticidade.</p>
-                </div>
-              </section>
-            <section class="feature">
-            <div class="feat">
-                <div class="feat__column">
-                    <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1116,h_744/v1613520218/assets/3e/e98625-31e6-4536-8646-976a1ee3f210/original/Safety_Home_Img2x.png" alt="" class="feat__image">
-                    <h3 class="feat__title">Our commitment to your safety</h3>
-                    <p class="feat__paragraph">With every safety feature and every standard in our Community Guidelines, we're committed to helping to create a safe environment for our users.</p>
-                    <div class="feat__anchors">
-                        <a href="#" class="anchor">Read about our Community Guidelines</a>
-                        <a href="#" class="anchor">See all safety features</a>
+            <div class="servicos-container">
+                <h2 class="title">SERVIÇOS SUBER</h2>
+                <section class="servicos">
+                    <div class="subervip">
+                        <img src="img/subervip.png" alt="Imagem 1">
+                        <article>
+                            <h1>SUBER VIP</h1>
+                            <p> O Suber Vip é escolha definitiva para quem busca o máximo em luxo e conforto na estrada. Com um design elegante e tecnologia de ponta, este carro de luxo oferece uma experiência de condução incomparável.</p>
+                        </article>
+                        </div>
+                        <div class="subervip">
+                        <img src="img/t-suber.png" alt="Imagem 2">
+                        <article>
+                            <h1>T-SUBER</h1>
+                        <p>O T-Suber é a escolha perfeita para motoristas que buscam qualidade e economia. Com um design moderno e eficiente, este carro popular é ideal para quem quer começar a dirigir com estilo e praticidade.</p>
+                        </article> 
                     </div>
-                </div>
-                <div class="feat__column">
-                    <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1116,h_744/v1613520285/assets/c2/91ea9c-90d7-4c36-a740-d7844536694e/original/Cities_Home_Img2x.png" alt="" class="feat__image">
-                    <h3 class="feat__title">Setting 10,000+ cities in motion</h3>
-                    <p class="feat__paragraph">The app is available in thousands of cities worldwide, so you can request a ride even when you’re far from home.</p>
-                    <div class="feat__anchors">
-                        <a href="#" class="anchor">View all cities</a>
-                    </div>
-                </div>
+                </section>
             </div>
-        </section>
+            <section class="feature">
+                <div class="feat_column">
+                    <img src="/img/1.jpg" alt="" class="feat__image">
+                    <h2 class="feat_title">Nosso compromisso com sua segurança</h2>
+                    <p class="feat_paragraph">Com todos os recursos de segurança e todos os padrões das nossas Diretrizes da Comunidade, estamos comprometidos em ajudar a criar um ambiente seguro para nossos usuários.</p>
+                    <div class="feat_anchors">
+                        <a href="#" class="anchor">Leia mais sobre nossas políticas</a>
+                    </div>
+                </div>
+                <div class="feat_column">
+                    <img src="/img/2.jpg" alt="" class="feat__image">
+                    <h2 class="feat_title">Colocando mais de 10.000 cidades em movimento</h2>
+                    <p class="feat_paragraph">Com todos os recursos de segurança e todos os padrões das nossas Diretrizes da Comunidade, estamos comprometidos em ajudar a criar um ambiente seguro para nossos usuários.</p>
+                    <div class="feat_anchors">
+                        <a href="#" class="anchor">Veja as cidades</a>
+                    </div>
+                </div>
+            </section>
     
         <section class="about">
-            <div class="about__container">
-                <div class="about__column">
-                    <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542256135/assets/dd/c53d7b-8921-4dc7-93f4-45fb59f4ffb9/original/person-multiple-outlined.svg" alt="" class="about__image">
-                    <h2 class="about__title">Quiénes somos</h2>
-                    <p class="about__description">Descubre cómo comenzamos, qué nos motiva y cómo reinventamos la movilidad en el mundo.</p>
-                    <a href="#" class="about__cta anchor">Conoce más sobre Uber</a>
-                </div>
-                <div class="about__column">
-                    <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542254244/assets/eb/68c631-5041-4eeb-9114-80048a326782/original/document-outlined.svg" alt="" class="about__image">
-                    <h2 class="about__title">Sala de prensa</h2>
-                    <p class="about__description">Accede a los anuncios sobre nuestros últimos lanzamientos, iniciativas y asociaciones.
-                    </p>
-                    <a href="#" class="about__cta anchor">Conoce más sobre Uber</a>
-                </div>
-                <div class="about__column">
-                    <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542255370/assets/64/58118a-0ece-4f80-93ee-8041b53593d5/original/home-outlined.svg" alt="" class="about__image">
-                    <h2 class="about__title">Ciudadanía global</h2>
-                    <p class="about__description">Lee sobre nuestro compromiso para tener un impacto positivo en las ciudades donde operamos.</p>
-                    <a href="#" class="about__cta anchor">Conoce más sobre Uber</a>
-                </div>
+            <div class="about__column">
+                <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542256135/assets/dd/c53d7b-8921-4dc7-93f4-45fb59f4ffb9/original/person-multiple-outlined.svg" alt="" class="about__image">
+                <h2 class="about__title">Quiénes somos</h2>
+                <p class="about__description">Descubre cómo comenzamos, qué nos motiva y cómo reinventamos la movilidad en el mundo.</p>
+                <a href="#" class="about__cta anchor">Conoce más sobre Uber</a>
+            </div>
+            <div class="about__column">
+                <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542254244/assets/eb/68c631-5041-4eeb-9114-80048a326782/original/document-outlined.svg" alt="" class="about__image">
+                <h2 class="about__title">Sala de prensa</h2>
+                <p class="about__description">Accede a los anuncios sobre nuestros últimos lanzamientos, iniciativas y asociaciones.
+                </p>
+                <a href="#" class="about__cta anchor">Conoce más sobre Uber</a>
+            </div>
+            <div class="about__column">
+                <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542255370/assets/64/58118a-0ece-4f80-93ee-8041b53593d5/original/home-outlined.svg" alt="" class="about__image">
+                <h2 class="about__title">Ciudadanía global</h2>
+                <p class="about__description">Lee sobre nuestro compromiso para tener un impacto positivo en las ciudades donde operamos.</p>
+                <a href="#" class="about__cta anchor">Conoce más sobre Uber</a>
             </div>
         </section>
     </main>
 </body>
+<script src="script.js"></script>
 </html>
